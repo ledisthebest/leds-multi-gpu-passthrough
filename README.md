@@ -1,4 +1,4 @@
-# LEDs-multi-gpu-passthrough
+# Classic PCI Passthrough, with 2 or more graphic cards
 
 This is LED's Guide for Dual/Multi GPU passthrough using QEMU/KVM + Libvirt.
 
@@ -29,8 +29,25 @@ You can reach me from here: [Contacts](https://liucreator.gitlab.io/en/contact/)
 
 ---
 
+## Features
+
+- [ ] ACS Patch
+- [ ] Hyper-V enlightments for Nested Virtualization
+- [ ] Mouse and Keyboard passthrough via Evdev
+- [ ] Physical disk passthrough
+- [ ] AMD GPU Reset Bug
+- [ ] GPU VBIOS Dumping
+- [ ] Static huge pages
+- [ ] Additional languages
+    - [ ] Chinese
+- [ ] Windows 11 TPM Requirement
+- [ ] Looking Glass
+- [ ] Hackintosh
+
+
+---
+
 ## Credit:
 
 - Arch Wiki [PCI passthrough](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF) 
 - Libvirt [XML format and explainations](https://libvirt.org/formatdomain.html)
-- SubReddit [r/VFIO](https://www.reddit.com/r/VFIO/)
